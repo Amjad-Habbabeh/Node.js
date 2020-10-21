@@ -51,6 +51,6 @@ drawCard();
 function getRandomElement(array) {
   // YOUR CODE GOES IN HERE
   let randomNumber = Math.random();
-  let randomIndex = Math.floor((array.length - 1) * randomNumber);
+  let randomIndex = Math.floor((array.length - 1) * (randomNumber)+1);
   return array[randomIndex];
 }
